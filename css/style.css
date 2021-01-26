@@ -105,7 +105,7 @@ align-items: center;}
  }
 .filters {display: flex;
 justify-content: center;    margin-right: 40px;}
-.filters-text { margin-right: 20px; margin-left: 20px;}
+.filters-text { margin-right: 20px; margin-left: 20px; margin-top: 6px; margin-bottom: 6px;}
 
 /*heroportf*/
 .work-container {
