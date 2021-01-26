@@ -17,6 +17,8 @@ font-family: Roboto;}
 
 .main-nav {
     width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     height: 80px; 
     display: flex;
 align-items: center;}
@@ -50,7 +52,7 @@ align-items: center;}
 .head-link-studio {color: var(--accent-color);}
 .head-link-portf {color: var(--accent-color) ;}
     
-.auth-nav { display: flex; margin-left: auto; margin-right: 215px;}
+.auth-nav { display: flex; justify-content: end; margin-left: auto; margin-right: 215px;}
 .item-link:last-child{ margin-left: 50px;}
 .contact-link { color:var(--secondary-color);}
 .contact-link:focus,
@@ -59,6 +61,8 @@ align-items: center;}
 /*hero*/
 
 .hero {width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
     height: 600px;
     background-color: var(--dark-background-color); 
 }
@@ -101,6 +105,7 @@ align-items: center;}
  }
 .filters {display: flex;
 justify-content: center;    margin-right: 40px;}
+.filters-text { margin-right: 20px; margin-left: 20px;}
 
 /*heroportf*/
 .work-container {
@@ -130,11 +135,12 @@ justify-content: center;    margin-right: 40px;}
 
 /*Features*/
 
-.section-features { background-color: var(--main-background-color);}
-.features-list { width: 1170px;
+.section-features { background-color: var(--main-background-color); 
+width: 1170px; margin-right: auto; margin-left: auto;}
+.features-list { width: 1600px;
     height: 101px;
-    display: flex;
-padding-left: 215px;
+    display: flex; 
+
 padding-right: 215px;}
 .title-list { color: var(--main-color);
     font-weight: bold;
@@ -152,6 +158,7 @@ line-height: 24px;}
 /*What are we doing*/
 
 .section-benefits {background-color: var(--main-background-color); 
+    width: 1600px; margin-right: auto ; margin-left: auto;
     font-family: Roboto;
 margin-bottom: 94px;}
 .benefits-slogan { font-weight: bold;
@@ -176,7 +183,7 @@ margin-bottom: 94px;}
 /*Our team section*/
 
 .team-section {background-color: var(--sec-background-color);
-width: 1600px;
+    width: 1600px; margin-right: auto ; margin-left: auto;
 height: 648px;
 }
 .our-team { margin-bottom: 50px; margin-top: 0;
@@ -201,7 +208,7 @@ padding-right:  215px;
 
 /*Footer */
 .footer-container {flex-direction: column;}
-.footer {width: 1600px;
+.footer { width: 1600px; margin-right: auto ; margin-left: auto;
   height: 252px;  
     background-color: var(--dark-background-color);
 }
@@ -224,7 +231,8 @@ padding-right:  215px;
     font-size: 14px;
     line-height: 1.71;}
 
-.footer-container { padding-top: 60px; padding-bottom: 60px;}    
+.footer-container { padding-top: 60px; padding-bottom: 60px;
+}    
 
 .cont-link-footer { padding-left: 175px; margin-bottom: 9px;}
 
