@@ -367,7 +367,7 @@ padding-top: 94px;}
     .buttons:focus,
     .buttons:hover,
     .current-button {
-        color: var(--light-text-color);
+        color: var(--main-background-color);
         background-color:  var(--accent-color);
         transition: color 0.25s, background-color 0.25s;
         box-shadow: 0 0.5em 0.5em -0.4em var(--main-color);
